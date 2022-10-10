@@ -15,6 +15,7 @@ export default function Gebruiker(){
             body:JSON.stringify(gebruiker)
         }).then(()=>{
             console.log("Gebruiker is succesvol toegevoegd")
+            window.location.reload()
         })
     }
     const deleteGebruiker=(e)=>{
@@ -62,7 +63,11 @@ export default function Gebruiker(){
                 <h1>Gebruikers</h1>
                 <box>
                 {gebruikers.map(gebruiker=>(
-                    <box style={{margin:"10px",padding:"15px",textAlign:"center"}} key={gebruiker.id}><br/><hr/>
+                    <box style={{margin:"10px",padding:"15px",textAlign:"center"}} key={gebruiker.id}>
+                        <br/><hr/>
+                    <button type="button" onClick={deleteGebruiker}>
+                          Verwijder  
+                    </button>
                     Gebruikersnaam: {gebruiker.gebruikersnaam}<br/>
                     Email: {gebruiker.email}
                     </box>
