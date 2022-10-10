@@ -61,18 +61,18 @@ export default function Gebruiker(){
                 <br/>
                 <br/>
                 <h1>Gebruikers</h1>
-                <box>
+                <div>
                 {gebruikers.map(gebruiker=>(
-                    <box style={{margin:"10px",padding:"15px",textAlign:"center"}} key={gebruiker.id}>
+                    <div style={{margin:"10px",padding:"15px",textAlign:"center"}} key={gebruiker.id}>
                         <br/><hr/>
                     <button type="button" onClick={deleteGebruiker}>
                           Verwijder  
                     </button>
                     Gebruikersnaam: {gebruiker.gebruikersnaam}<br/>
                     Email: {gebruiker.email}
-                    </box>
+                    </div>
                 ))}
-                </box>
+                </div>
                 </form>
                 // Yelleh come on
     )
