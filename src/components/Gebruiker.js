@@ -54,7 +54,6 @@ export default function Gebruiker(){
                 <br/><br/>
                 <button variant="contained" color="primary" onClick={handleClick}>
                     Voeg toe</button>
-                    <hr/>
                 <br/>
                 <br/>
                 <br/>
