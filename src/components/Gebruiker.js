@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react"; 
+//import fetch from "node-fetch";
 
 export default function Gebruiker(){
     const[gebruikersnaam,setGebruikersnaam]=useState('')
