@@ -57,6 +57,7 @@ export default function Gebruiker(){
                 <br/>
                 <br/>
                 <br/>
+                <div data-testid="user1">Marktplaats</div>
                 <br/>
                 <br/>
                 <br/>
