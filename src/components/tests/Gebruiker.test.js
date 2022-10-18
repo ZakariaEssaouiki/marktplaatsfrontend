@@ -1,6 +1,7 @@
 import React from 'react';
 import {render, screen,cleanup} from '@testing-library/react';
 import Gebruiker from '../Gebruiker';
+import '@testing-library/jest-dom/extend-expect'
 
 test('should render Gebruiker component', () => {
     render(<Gebruiker/>);
