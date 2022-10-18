@@ -6,7 +6,7 @@ test('should render Gebruiker component', () => {
     render(<Gebruiker/>);
     const gebruikerElement = screen.getByTestId('user1');
     expect(gebruikerElement).toBeInTheDocument();
-})
+}) 
 
 test('test',()=>{
     expect(true).toBe(true);
