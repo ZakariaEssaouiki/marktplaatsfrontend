@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="2" failures="1" errors="0" time="2.381">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2022-10-23T09:03:07" time="1.602" tests="2">
+    <testcase classname=" should render Gebruiker component" name=" should render Gebruiker component" time="0.137">
+      <failure>ReferenceError: fetch is not defined
+    at C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\src\components\Gebruiker.js:35:9
+    at commitHookEffectListMount (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\react-dom\cjs\react-dom.development.js:23150:26)
+    at commitPassiveMountOnFiber (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\react-dom\cjs\react-dom.development.js:24931:11)
+    at commitPassiveMountEffects_complete (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\react-dom\cjs\react-dom.development.js:24891:9)
+    at commitPassiveMountEffects_begin (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\react-dom\cjs\react-dom.development.js:24878:7)
+    at commitPassiveMountEffects (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\react-dom\cjs\react-dom.development.js:24866:3)
+    at flushPassiveEffectsImpl (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\react-dom\cjs\react-dom.development.js:27039:3)
+    at flushPassiveEffects (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\react-dom\cjs\react-dom.development.js:26984:14)
+    at C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\react-dom\cjs\react-dom.development.js:26769:9
+    at flushActQueue (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\react\cjs\react.development.js:2667:24)
+    at act (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\react\cjs\react.development.js:2582:11)
+    at C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\@testing-library\react\dist\act-compat.js:63:25
+    at renderRoot (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\@testing-library\react\dist\pure.js:159:26)
+    at render (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\@testing-library\react\dist\pure.js:246:10)
+    at Object.&lt;anonymous&gt; (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\src\components\tests\Gebruiker.test.js:7:5)
+    at Promise.then.completed (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\run.js:66:9)
+    at run (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-runner\build\runTest.js:475:34)
+    at TestRunner.runTests (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-runner\build\index.js:101:12)
+    at TestScheduler.scheduleTests (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\@jest\core\build\TestScheduler.js:333:13)
+    at runJest (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\@jest\core\build\runJest.js:404:19)
+    at _run10000 (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\@jest\core\build\cli\index.js:320:7)
+    at runCLI (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\@jest\core\build\cli\index.js:173:3)
+    at Object.run (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" test" name=" test" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>
