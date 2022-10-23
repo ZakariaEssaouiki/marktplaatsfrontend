@@ -31,14 +31,14 @@ export default function Gebruiker(){
             console.log("Gebruiker is succesvol verwijderd")
         })
     }
-    useEffect(()=>{
-        fetch("http://localhost:8080/gebruiker/GetAll")
-        .then(res=>res.json())
-        .then((result)=>{
-            setGebruikers(result);
-        }
-        )
-    },[])
+    // useEffect(()=>{
+    //     fetch("http://localhost:8080/gebruiker/GetAll")
+    //     .then(res=>res.json())
+    //     .then((result)=>{
+    //         setGebruikers(result);
+    //     }
+    //     )
+    // },[])
     return (
         <form noValidate autoComplete="off">
             <h1>Gebruiker toevoegen</h1>
@@ -76,6 +76,5 @@ export default function Gebruiker(){
                 ))}
                 </div>
                 </form>
-                // Yelleh come on
     )
 }

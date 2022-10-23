@@ -1,6 +1,7 @@
 {
   "name": "marktplaatsfrontend",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "dependencies": {
     "@mui/icons-material": "^5.10.6",
@@ -49,8 +50,11 @@
   "test": {
     "test": "react-scripts test --env=jsdom-fourteen"
   },
-  "jest":{
+  "jest": {
     "testEnvironment": "jsdom",
-    "reporters": [ "default", "jest-junit" ]
+    "reporters": [
+      "default",
+      "jest-junit"
+    ]
   }
 }
