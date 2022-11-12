@@ -51,7 +51,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           
-      - name: Push to docker
     # build docker image and push to docker hub
     # only if the app build and test successfully
       - name: checkout repo
