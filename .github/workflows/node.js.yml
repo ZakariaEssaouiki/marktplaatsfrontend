@@ -38,7 +38,6 @@ jobs:
       # build and test the apps
 
       - name: SonarCloud
-        run: ubuntu-latest
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
@@ -53,7 +52,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           
       - name: Push to docker
-        run: ubuntu-latest
     # build docker image and push to docker hub
     # only if the app build and test successfully
       - name: checkout repo
