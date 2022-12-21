@@ -187,7 +187,7 @@ const Profiel = () => {
                     />
                     <br /><br />
                     <Button type="submit" variant="contained" color="primary">
-                        update</Button>
+                        Update.</Button>
                     <ToastContainer />
                 </form>
                 <div data-testid="user1" style={{visibility:"hidden"}}>Marktplaats</div>
