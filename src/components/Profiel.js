@@ -97,7 +97,7 @@ const Profiel = () => {
     const getAll = async (e) => {
         e.preventDefault()
         const response = await fetch(
-            "http://localhost:3000/gebruiker/getAll", {
+            "http://localhost:8080/gebruiker/getAll", {
             method: "GET",
             headers: {
                 "Accept": "application/json",
@@ -112,7 +112,7 @@ const Profiel = () => {
     const getProductsFromUser = async (e) => {
         e.preventDefault()
         const response = await fetch(
-            "http://localhost:3000/gebruiker/producten/" + id, {
+            "http://localhost:8080/gebruiker/producten/" + id, {
             method: "GET",
             headers: {
                 'X-XSRF-TOKEN': cookies['XSRF-TOKEN'],

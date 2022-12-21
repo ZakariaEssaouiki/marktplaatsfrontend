@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="0" errors="0" time="6.66">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-12-21T14:15:03" time="1.638" tests="1">
-    <testcase classname=" test" name=" test" time="0.003">
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="8.067">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-12-21T14:21:47" time="1.533" tests="1">
+    <testcase classname=" test" name=" test" time="0.002">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-12-21T14:15:03" time="4.056" tests="4">
-    <testcase classname=" should render Profiel component" name=" should render Profiel component" time="0.252">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-12-21T14:21:47" time="5.614" tests="4">
+    <testcase classname=" should render Profiel component" name=" should render Profiel component" time="0.41">
     </testcase>
-    <testcase classname=" testing getAll function" name=" testing getAll function" time="0.088">
+    <testcase classname=" testing getAll function" name=" testing getAll function" time="0.185">
     </testcase>
-    <testcase classname=" testing getProductsFromUser" name=" testing getProductsFromUser" time="0.08">
+    <testcase classname=" testing getProductsFromUser" name=" testing getProductsFromUser" time="0.114">
     </testcase>
     <testcase classname=" test" name=" test" time="0.001">
     </testcase>
