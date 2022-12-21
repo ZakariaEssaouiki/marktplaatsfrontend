@@ -1,17 +1,13 @@
 .mid {
-	background-color: aqua;
+	background-color: rgb(13, 125, 80);
 	display: inline-block;
 	width: 63%;
 	margin: auto;
 }
 
 .navbar{
- 
 	display:inline-block;
 }
-
-
-
 
 .navbar li{
 
@@ -23,7 +19,7 @@ margin:auto;
 
 .navbar li a{
 text-decoration: none;
-color:rgb(29, 25, 231);
+color:rgb(25, 231, 94);
 font-size: 18px;
 padding:8px 20px;
 }
@@ -36,27 +32,27 @@ font-size: 20px;
 }
 
 .navbar li a:active{
-background-color: deepskyblue;
+background-color: rgb(31, 137, 79);
 border-radius: 5px;
 }
 .right {
-	background-color: aqua;
+	background-color: rgb(0, 255, 136);
 display: inline-block;
 width: 8%;
 
 font-size: 18px;
 padding: 18px 26px;
-color: #1d19e7;
+color: #d2d1f8;
 }
 
 .right {
-	background-color: aqua;
+	background-color: #09582d;
 display: inline-block;
 width: 8%;
 
 font-size: 18px;
 padding: 18px 26px;
-color: #1d19e7;
+color: #19e795;
 }
 	.right a{
 text-decoration:none;
@@ -66,12 +62,12 @@ font-weight:bolder;
 }
 
 .left {
-	background-color: aqua;
+	background-color: rgb(53, 188, 127);
 display: inline-block;
 width: 17%;
 font-size: 18px;
 padding: 18px 17px;
-color: #1d19e7;
+color: #19e795;
 
 
 }

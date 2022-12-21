@@ -1,7 +1,302 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="2" failures="0" errors="0" time="3.266">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-10-23T09:58:33" time="2.003" tests="2">
-    <testcase classname=" should render Gebruiker component" name=" should render Gebruiker component" time="0.045">
+<testsuites name="jest tests" tests="3" failures="1" errors="0" time="2.951">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2022-12-20T16:30:25" time="2.26" tests="3">
+    <testcase classname=" should render Profiel component" name=" should render Profiel component" time="0.148">
+    </testcase>
+    <testcase classname=" testing getAll function" name=" testing getAll function" time="0.109">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: function (content, element) { return element.textContent.includes(&apos;Gebruikersnaam&apos;); } (normalized from &apos;function (content, element) {
+            return element.textContent.includes(&apos;Gebruikersnaam&apos;);
+          }&apos;). This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      style=&quot;height: 1000px; text-align: center;&quot;
+    &gt;
+      &lt;div
+        class=&quot;col&quot;
+      &gt;
+        &lt;form&gt;
+          &lt;h1&gt;
+            Gebruiker updaten
+          &lt;/h1&gt;
+          &lt;label&gt;
+            Voornaam
+          &lt;/label&gt;
+          &lt;br /&gt;
+          &lt;div
+            class=&quot;MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root&quot;
+          &gt;
+            &lt;label
+              class=&quot;MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root&quot;
+              data-shrink=&quot;false&quot;
+              for=&quot;outlined-basic&quot;
+              id=&quot;outlined-basic-label&quot;
+            &gt;
+              Voornaam
+              &lt;span
+                aria-hidden=&quot;true&quot;
+                class=&quot;MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk&quot;
+              &gt;
+                 
+                *
+              &lt;/span&gt;
+            &lt;/label&gt;
+            &lt;div
+              class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root&quot;
+            &gt;
+              &lt;input
+                aria-invalid=&quot;false&quot;
+                class=&quot;MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input&quot;
+                id=&quot;outlined-basic&quot;
+                required=&quot;&quot;
+                type=&quot;text&quot;
+                value=&quot;&quot;
+              /&gt;
+              &lt;fieldset
+                aria-hidden=&quot;true&quot;
+                class=&quot;MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline&quot;
+              &gt;
+                &lt;legend
+                  class=&quot;css-yjsfm1&quot;
+                &gt;
+                  &lt;span&gt;
+                    Voornaam
+                     
+                    *
+                  &lt;/span&gt;
+                &lt;/legend&gt;
+              &lt;/fieldset&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;br /&gt;
+          &lt;label&gt;
+            Achternaam
+          &lt;/label&gt;
+          &lt;br /&gt;
+          &lt;div
+            class=&quot;MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root&quot;
+          &gt;
+            &lt;label
+              class=&quot;MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root&quot;
+              data-shrink=&quot;false&quot;
+              for=&quot;outlined-basic&quot;
+              id=&quot;outlined-basic-label&quot;
+            &gt;
+              Achternaam
+              &lt;span
+                aria-hidden=&quot;true&quot;
+                class=&quot;MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk&quot;
+              &gt;
+                 
+                *
+              &lt;/span&gt;
+            &lt;/label&gt;
+            &lt;div
+              class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root&quot;
+            &gt;
+              &lt;input
+                aria-invalid=&quot;false&quot;
+                class=&quot;MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input&quot;
+                id=&quot;outlined-basic&quot;
+                required=&quot;&quot;
+                type=&quot;text&quot;
+                value=&quot;&quot;
+              /&gt;
+              &lt;fieldset
+                aria-hidden=&quot;true&quot;
+                class=&quot;MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline&quot;
+              &gt;
+                &lt;legend
+                  class=&quot;css-yjsfm1&quot;
+                &gt;
+                  &lt;span&gt;
+                    Achternaam
+                     
+                    *
+                  &lt;/span&gt;
+                &lt;/legend&gt;
+              &lt;/fieldset&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;br /&gt;
+          &lt;label&gt;
+            Geslacht
+          &lt;/label&gt;
+          &lt;br /&gt;
+          &lt;div
+            class=&quot;MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root&quot;
+          &gt;
+            &lt;div
+              class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root&quot;
+            &gt;
+              &lt;div
+                aria-expanded=&quot;false&quot;
+                aria-haspopup=&quot;listbox&quot;
+                aria-labelledby=&quot;outlined-select-currency&quot;
+                class=&quot;MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input&quot;
+                id=&quot;outlined-select-currency&quot;
+                role=&quot;button&quot;
+                tabindex=&quot;0&quot;
+              &gt;
+                Man
+              &lt;/div&gt;
+              &lt;input
+                aria-hidden=&quot;true&quot;
+                class=&quot;MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput&quot;
+                required=&quot;&quot;
+                tabindex=&quot;-1&quot;
+                value=&quot;Man&quot;
+              /&gt;
+              &lt;svg
+                aria-hidden=&quot;true&quot;
+                class=&quot;MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon&quot;
+                data-testid=&quot;ArrowDropDownIcon&quot;
+                focusable=&quot;false&quot;
+                viewBox=&quot;0 0 24 24&quot;
+              &gt;
+                &lt;path
+                  d=&quot;M7 10l5 5 5-5z&quot;
+                /&gt;
+              &lt;/svg&gt;
+              &lt;fieldset
+                aria-hidden=&quot;true&quot;
+                class=&quot;MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline&quot;
+              &gt;
+                &lt;legend
+                  class=&quot;css-ihdtdm&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;notranslate&quot;
+                  &gt;
+                    ​
+                  &lt;/span&gt;
+                &lt;/legend&gt;
+              &lt;/fieldset&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;br /&gt;
+          &lt;label&gt;
+            GeboorteDatum
+          &lt;/label&gt;
+          &lt;br /&gt;
+          &lt;div
+            class=&quot;MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root&quot;
+            max=&quot;2007-01-01&quot;
+            min=&quot;1930-01-01&quot;
+          &gt;
+            &lt;div
+              class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root&quot;
+            &gt;
+              &lt;input
+                aria-invalid=&quot;false&quot;
+                class=&quot;MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input&quot;
+                id=&quot;outlined-basic&quot;
+                required=&quot;&quot;
+                type=&quot;date&quot;
+                value=&quot;&quot;
+              /&gt;
+              &lt;fieldset
+                aria-hidden=&quot;true&quot;
+                class=&quot;MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline&quot;
+              &gt;
+                &lt;legend
+                  class=&quot;css-ihdtdm&quot;
+                &gt;
+                  &lt;span
+                    class=&quot;notranslate&quot;
+                  &gt;
+                    ​
+                  &lt;/span&gt;
+                &lt;/legend&gt;
+              &lt;/fieldset&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;br /&gt;
+          &lt;br /&gt;
+          &lt;button
+            class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root&quot;
+            tabindex=&quot;0&quot;
+            type=&quot;submit&quot;
+          &gt;
+            update
+            &lt;span
+              class=&quot;MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root&quot;
+            /&gt;
+          &lt;/button&gt;
+          &lt;div
+            class=&quot;Toastify&quot;
+          /&gt;
+        &lt;/form&gt;
+        &lt;div
+          data-testid=&quot;user1&quot;
+          style=&quot;visibility: hidden;&quot;
+        &gt;
+          Marktplaats
+        &lt;/div&gt;
+        &lt;button
+          class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root&quot;
+          tabindex=&quot;0&quot;
+          type=&quot;button&quot;
+        &gt;
+          Zie alle gebruikers
+          &lt;span
+            class=&quot;MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root&quot;
+          /&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div
+        class=&quot;col&quot;
+      &gt;
+        &lt;h1&gt;
+          Gebruikers
+        &lt;/h1&gt;
+        &lt;div /&gt;
+      &lt;/div&gt;
+      &lt;div
+        class=&quot;col&quot;
+      &gt;
+         
+        &lt;div&gt;
+          &lt;p&gt;
+            Producten
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\@testing-library\dom\dist\config.js:40:19)
+    at C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\@testing-library\dom\dist\query-helpers.js:90:38
+    at getAllByText (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\@testing-library\dom\dist\query-helpers.js:130:15)
+    at _callee$ (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\src\components\tests\profiel.test.js:23:37)
+    at tryCatch (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\src\components\tests\profiel.test.js:15:2404)
+    at Generator._invoke (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\src\components\tests\profiel.test.js:15:1964)
+    at Generator.next (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\src\components\tests\profiel.test.js:15:3255)
+    at asyncGeneratorStep (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\src\components\tests\profiel.test.js:17:103)
+    at _next (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\src\components\tests\profiel.test.js:19:194)
+    at C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\src\components\tests\profiel.test.js:19:364
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt; (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\src\components\tests\profiel.test.js:19:97)
+    at Promise.then.completed (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\run.js:66:9)
+    at run (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-runner\build\runTest.js:475:34)
+    at TestRunner.runTests (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-runner\build\index.js:101:12)
+    at TestScheduler.scheduleTests (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\@jest\core\build\TestScheduler.js:333:13)
+    at runJest (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\@jest\core\build\runJest.js:404:19)
+    at _run10000 (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\@jest\core\build\cli\index.js:320:7)
+    at runCLI (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\@jest\core\build\cli\index.js:173:3)
+    at Object.run (C:\Users\zessa\Desktop\MarktplaatsApp\marktplaatsfrontend\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
     </testcase>
     <testcase classname=" test" name=" test" time="0.001">
     </testcase>
